@@ -20,7 +20,7 @@
         <property name="weight" value="84" />
     </bean>
 
-    <bean id="sutudentInfo1" class="inhatc.cse.spring.di.xmlbean4.StudentInfo">
+    <bean id="studentInfo1" class="inhatc.cse.spring.di.xmlbean4.StudentInfo">
         <property name="student">
             <ref bean="student1"/>
         </property>
