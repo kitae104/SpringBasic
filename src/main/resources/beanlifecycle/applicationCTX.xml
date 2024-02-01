@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="student" class="inhatc.cse.spring.di.beanlifecycle.Student">
+        <constructor-arg value="홍길순"></constructor-arg>
+        <constructor-arg value="30"></constructor-arg>
+    </bean>
+
+    <bean id="otherStudent" class="inhatc.cse.spring.di.beanlifecycle.OtherStudent">
+        <constructor-arg value="홍길자"></constructor-arg>
+        <constructor-arg value="50"></constructor-arg>
+    </bean>
+</beans>
