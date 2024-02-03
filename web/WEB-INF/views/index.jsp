@@ -12,5 +12,6 @@
 </head>
 <body>
     <h1>${data}</h1>
+    <p><img src="" alt="이미지"></p>
 </body>
 </html>

@@ -1,5 +1,9 @@
 package inhatc.cse.spring.di.beanlifecycle;
 
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
+
+
 public class OtherStudent  {
 
 	private String name;
@@ -18,7 +22,7 @@ public class OtherStudent  {
 		return age;
 	}
 	
-	@PostConstuct
+	@PostConstruct
 	public void initMethod() {
 		System.out.println("initMethod()");
 	}
