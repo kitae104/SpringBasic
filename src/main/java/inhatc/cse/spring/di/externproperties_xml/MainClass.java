@@ -5,7 +5,7 @@ import org.springframework.context.support.GenericXmlApplicationContext;
 
 public class MainClass {
     public static void main(String[] args) {
-        AbstractApplicationContext ctx = new GenericXmlApplicationContext("classpath:externproperties/applicationCTX.xml");
+        AbstractApplicationContext ctx = new GenericXmlApplicationContext("classpath:externproperties/applicationCTX3.xml");
 
         AdminConnection adminConnection = ctx.getBean("adminConnection", AdminConnection.class);
         System.out.println("adminId: " + adminConnection.getAdminId());

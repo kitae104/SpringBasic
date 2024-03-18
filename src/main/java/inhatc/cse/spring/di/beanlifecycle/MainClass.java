@@ -8,7 +8,7 @@ public class MainClass {
 		
 		GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
 
-		ctx.load("classpath:beanlifecycle/applicationCTX.xml");
+		ctx.load("classpath:beanlifecycle/applicationCTX3.xml");
 		
 		ctx.refresh();
 

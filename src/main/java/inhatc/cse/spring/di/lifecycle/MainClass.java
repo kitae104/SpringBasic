@@ -8,7 +8,7 @@ public class MainClass {
 		
 		GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();	// 생성
 
-		ctx.load("classpath:lifecycle/applicationCTX.xml");		// 설정
+		ctx.load("classpath:lifecycle/applicationCTX3.xml");		// 설정
 		
 		ctx.refresh();
 		

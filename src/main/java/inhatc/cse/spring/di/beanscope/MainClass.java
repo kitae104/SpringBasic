@@ -7,7 +7,7 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		
-		AbstractApplicationContext ctx = new GenericXmlApplicationContext("classpath:beanscope/applicationCTX.xml");
+		AbstractApplicationContext ctx = new GenericXmlApplicationContext("classpath:beanscope/applicationCTX3.xml");
 		
 		Student student1 = ctx.getBean("student", Student.class);
 		System.out.println("이름 : " + student1.getName());

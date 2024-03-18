@@ -23,7 +23,7 @@ public class MainClass {
         }
 
         GenericXmlApplicationContext gCtx = (GenericXmlApplicationContext) ctx;
-        gCtx.load("classpath:environment/applicationCTX.xml");
+        gCtx.load("classpath:environment/applicationCTX3.xml");
         gCtx.refresh();
 
         AdminConnection adminConnection = gCtx.getBean("adminConnection", AdminConnection.class);
