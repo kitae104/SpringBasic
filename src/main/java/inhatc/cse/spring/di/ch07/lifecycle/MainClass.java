@@ -1,4 +1,4 @@
-package inhatc.cse.spring.di.lifecycle;
+package inhatc.cse.spring.di.ch07.lifecycle;
 
 import org.springframework.context.support.GenericXmlApplicationContext;
 
@@ -8,7 +8,7 @@ public class MainClass {
 		
 		GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();	// 생성
 
-		ctx.load("classpath:lifecycle/applicationCTX3.xml");		// 설정
+		ctx.load("classpath:ch07/lifecycle.xml");		// 설정
 		
 		ctx.refresh();
 		

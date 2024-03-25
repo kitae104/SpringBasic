@@ -1,4 +1,4 @@
-package inhatc.cse.spring.di.beanlifecycle;
+package inhatc.cse.spring.di.ch07.beanlifecycle;
 
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;

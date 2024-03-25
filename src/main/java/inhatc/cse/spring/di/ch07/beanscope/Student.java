@@ -1,4 +1,4 @@
-package inhatc.cse.spring.di.beanscope;
+package inhatc.cse.spring.di.ch07.beanscope;
 
 public class Student {
 

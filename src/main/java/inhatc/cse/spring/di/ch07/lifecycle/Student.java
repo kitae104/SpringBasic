@@ -1,4 +1,4 @@
-package inhatc.cse.spring.di.lifecycle;
+package inhatc.cse.spring.di.ch07.lifecycle;
 
 import java.util.ArrayList;
 
