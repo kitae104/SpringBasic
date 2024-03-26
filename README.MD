@@ -1,12 +1,13 @@
-3강 
-1. plaincalc
-2. xmlbean
-3. xmlBean.xml
+### 스프링 프레임워크
+#### 1. DI(Dependency Injection)
+- 의존성 주입
 
-4강 
-1. xmlbean2
-2. studentInfo.xml
+#### 2. IoC(Inversion of Control)
+- 제어의 역전
 
-5강
-1. xmlbean3
-2. pencilBean.xml
+### 환경 1
+#### IntelliJ IDEA
+
+### 환경 2
+#### Download STS3
+- https://github.com/spring-projects/toolsuite-distribution/wiki/Spring-Tool-Suite-3
