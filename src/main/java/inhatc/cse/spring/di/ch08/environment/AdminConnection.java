@@ -1,4 +1,4 @@
-package inhatc.cse.spring.di.environment;
+package inhatc.cse.spring.di.ch08.environment;
 
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;

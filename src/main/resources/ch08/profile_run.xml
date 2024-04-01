@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
        profile="run">
 
-    <bean id="serverInfo" class="inhatc.cse.spring.di.profile_xml.ServerInfo">
+    <bean id="serverInfo" class="inhatc.cse.spring.di.ch08.profile_xml.ServerInfo">
         <property name="ipNum" value="123.123.123.23"></property>
         <property name="portNum" value="80"></property>
     </bean>

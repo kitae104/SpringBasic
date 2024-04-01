@@ -1,4 +1,4 @@
-package inhatc.cse.spring.di.environment;
+package inhatc.cse.spring.di.ch08.environment;
 
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
@@ -15,7 +15,7 @@ public class MainClass {
         MutablePropertySources propertySources = env.getPropertySources();
 
         try {
-            propertySources.addLast(new ResourcePropertySource("classpath:environment/admin.properties"));
+            propertySources.addLast(new ResourcePropertySource("classpath:ch08/admin.properties"));
             System.out.println(env.getProperty("admin.id"));
             System.out.println(env.getProperty("admin.pw"));
         } catch (IOException e) {
@@ -23,7 +23,7 @@ public class MainClass {
         }
 
         GenericXmlApplicationContext gCtx = (GenericXmlApplicationContext) ctx;
-        gCtx.load("classpath:environment/applicationCTX3.xml");
+        gCtx.load("classpath:ch08/environment.xml");
         gCtx.refresh();
 
         AdminConnection adminConnection = gCtx.getBean("adminConnection", AdminConnection.class);

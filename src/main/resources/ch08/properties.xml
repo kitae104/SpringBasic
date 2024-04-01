@@ -9,7 +9,7 @@
 
     <context:property-placeholder location="classpath:externproperties_xml/admin.properties, classpath:externproperties_xml/sub_admin.properties" />
 
-    <bean id="adminConnection" class="inhatc.cse.spring.di.externproperties_xml.AdminConnection">
+    <bean id="adminConnection" class="inhatc.cse.spring.di.ch08.properties_xml.AdminConnection">
        <property name="adminId">
            <value>${admin.id}</value>
        </property>

@@ -1,4 +1,4 @@
-package inhatc.cse.spring.di.profile_java.externproperties_java;
+package inhatc.cse.spring.di.ch08.properties_xml;
 
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
@@ -43,12 +43,12 @@ public class AdminConnection implements InitializingBean, DisposableBean {
     }
 
     @Override
-    public void afterPropertiesSet() throws Exception {
-        System.out.println("afterPropertiesSet()");
+    public void destroy() throws Exception {
+
     }
 
     @Override
-    public void destroy() throws Exception {
-        System.out.println("destroy()");
+    public void afterPropertiesSet() throws Exception {
+
     }
 }

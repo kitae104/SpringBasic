@@ -1,4 +1,4 @@
-package inhatc.cse.spring.di.profile_java;
+package inhatc.cse.spring.di.ch08.profile_java;
 
 public class ServerInfo {
 

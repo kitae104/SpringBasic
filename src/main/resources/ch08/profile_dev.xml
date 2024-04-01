@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
        profile="dev">
 
-    <bean id="serverInfo" class="inhatc.cse.spring.di.profile_xml.ServerInfo">
+    <bean id="serverInfo" class="inhatc.cse.spring.di.ch08.profile_xml.ServerInfo">
         <property name="ipNum" value="localhost"></property>
         <property name="portNum" value="8181"></property>
     </bean>

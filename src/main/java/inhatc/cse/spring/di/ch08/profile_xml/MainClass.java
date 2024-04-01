@@ -1,6 +1,5 @@
-package inhatc.cse.spring.di.profile_java;
+package inhatc.cse.spring.di.ch08.profile_xml;
 
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
 import java.util.Scanner;
@@ -20,9 +19,9 @@ public class MainClass {
         }
         scanner.close();
 
-        AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
+        GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
         ctx.getEnvironment().setActiveProfiles(config);     // 프로파일 설정
-        ctx.register(ApplicationConfigDev.class, ApplicationConfigRun.class);
+        ctx.load("ch08/profile_dev.xml", "ch08/profile_run.xml");
         ctx.refresh();
 
         ServerInfo info = ctx.getBean("serverInfo", ServerInfo.class);

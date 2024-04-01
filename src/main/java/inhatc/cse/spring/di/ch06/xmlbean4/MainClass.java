@@ -5,7 +5,7 @@ import org.springframework.context.support.GenericXmlApplicationContext;
 
 public class MainClass {
     public static void main(String[] args) {
-        String configLocation1 = "classpath:ch06/applicationCTX1.xml";
+        String configLocation1 = "classpath:ch06/environment.xml";
         String configLocation2 = "classpath:ch06/applicationCTX2.xml";
 
         AbstractApplicationContext ctx = new GenericXmlApplicationContext(configLocation1, configLocation2);
