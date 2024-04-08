@@ -7,7 +7,7 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:property-placeholder location="classpath:externproperties_xml/admin.properties, classpath:externproperties_xml/sub_admin.properties" />
+    <context:property-placeholder location="classpath:ch08/admin.properties, classpath:ch08/sub_admin.properties" />
 
     <bean id="adminConnection" class="inhatc.cse.spring.di.ch08.properties_xml.AdminConnection">
        <property name="adminId">

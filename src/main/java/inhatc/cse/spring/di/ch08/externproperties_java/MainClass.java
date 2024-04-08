@@ -1,4 +1,4 @@
-package inhatc.cse.spring.di.ch08.profile_java.externproperties_java;
+package inhatc.cse.spring.di.ch08.externproperties_java;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

@@ -1,4 +1,4 @@
-package inhatc.cse.spring.di.ch08.profile_java.externproperties_java;
+package inhatc.cse.spring.di.ch08.externproperties_java;
 
 
 import org.springframework.beans.factory.annotation.Value;
@@ -27,8 +27,8 @@ public class ApplicationConfig {
     public static PropertySourcesPlaceholderConfigurer Properties() {
         PropertySourcesPlaceholderConfigurer configurer = new PropertySourcesPlaceholderConfigurer();
         Resource[] locations = new Resource[2];
-        locations[0] = new ClassPathResource("externproperties_java/admin.properties");
-        locations[1] = new ClassPathResource("externproperties_java/sub_admin.properties");
+        locations[0] = new ClassPathResource("ch08/admin.properties");
+        locations[1] = new ClassPathResource("ch08/sub_admin.properties");
         configurer.setLocations(locations);
 
         return configurer;
